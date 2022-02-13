@@ -7,7 +7,7 @@ class Footer extends React.Component {
     return (
       <footer className={styles.footer}>
         <p className={styles.text}>
-          Resilia {new Date().getFullYear()} - Alguns direitos reservados
+          Feito Por Caio Cavalcanti {new Date().getFullYear()} - Todos direitos reservados
         </p>
       </footer>
     );

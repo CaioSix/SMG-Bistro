@@ -1,39 +1,30 @@
 {
-    "tatuadores": [
+    "produtos": [
     {
-        "id": 1,
-        "nome": "Caio",
-        "descricao": "Tatua de tudo",
-        "especialidade": "Faz desenho xicano"
+        "nome": "Oregano",
+        "descricao": "Pitada de oregano",
+        "id": 1
+    },
+    {
+        "nome": "Molho de Tomate",
+        "descricao": "Molho a base de tomate",
+        "id": 2
         
     },
     {
-        "id": 2,
-        "nome": "Evelyn",
-        "descricao": "Tatua de tudo",
-        "especialidade": "Faz desenho realista"
-        
+        "nome": "Mantega",
+        "descricao": "Otimo para fritar carnes",
+        "id": 3
     },
     {
-        "id": 3,
-        "nome": "Helio",
-        "descricao": "Tatua de tudo",
-        "especialidade": "Faz desenho old scholl"
-        
+        "nome": "Sal",
+        "descricao": "Uma pitada de sal",
+        "id": 4
     },
     {
-        "id": 4,
-        "nome": "Hyan",
-        "descricao": "Tatua de tudo",
-        "especialidade": "Faz desenho psicodelicos"
-        
-    },
-    {
-        "id": 5,
-        "nome": "Mariana",
-        "descricao": "Tatua de tudo",
-        "especialidade": "Faz desenho de animais"
-        
+        "nome": "Cheiro Verde",
+        "descricao": "Um maço de cheiro verde",
+        "id": 5
     }
 ]
 }

@@ -7,7 +7,7 @@ class ConctactForm extends React.Component {
     super(props);
 
     this.state = {
-      name: "sdf",
+      name: "",
       email: "",
       phone: "",
     };
@@ -30,9 +30,9 @@ class ConctactForm extends React.Component {
   render() {
     return (
       <div>
-        <h1 className={styles.title}>Olá, mundo!</h1>
+        <h1 className={styles.title}>Contato</h1>
 
-        <p className={styles.subTitle}>Meu primeiro form com JSX</p>
+        <p className={styles.subTitle}>Entre em contato e reserve uma mesa!</p>
 
         <form onSubmit={this.handleSubmit} className={styles.form}>
           <label>Nome</label>

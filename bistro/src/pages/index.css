@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: firebrick;
+    padding: 20px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px ;
+    
+    
+    /* width: 70%; */
+}
+
+#bebida{
+    width: 50%
+
+}
+
+#titulo{
+    text-align: justify;
+}
+
+.local{
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    align-items: center;
+}
