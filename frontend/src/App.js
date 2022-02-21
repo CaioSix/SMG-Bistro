@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 import Home from "./pages"
 import Produtos from "./pages/Produtos/Produto.jsx"
 import NewProduto from "./pages/NovoProduto/NewProduto.jsx"
+import EditProduto from "./pages/EditProduto/EditarProduto.jsx"
 import Contato from "./pages/Contato/Contato.jsx"
 
 import "./App.css";
@@ -24,6 +25,7 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/produtos" element={<Produtos/>} />
           <Route path="/newproduto" element={<NewProduto/>}/>
+          <Route path="/editarproduto" element={<EditProduto/>}/>
           <Route path="/contato" element={<Contato/>} /> 
 
         </Routes>

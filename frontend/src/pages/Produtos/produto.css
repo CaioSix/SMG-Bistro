@@ -29,6 +29,7 @@ body {
 }
 
 .tabela {
+
     margin-top: 2.25rem;
     width: 100%;
 
@@ -157,7 +158,15 @@ body {
     transition: .25s;
 }
 
+.item{
+    color:red;
+}
 
+.id{
+    color:red;
+    position: absolute;
+    right: end;
+}
 
 @media(min-width: 800px) {
   .container {

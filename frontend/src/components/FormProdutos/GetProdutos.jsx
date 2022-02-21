@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'
 import { busca } from '../../api/api'
 
-import Delete from './DeleteProdutos'
+// import Delete from './DeleteProdutos'
 
+import './styles.module.css'
 
 const ListaProdutos = ({ url }) => {
 
@@ -18,23 +19,18 @@ useEffect(() => {
 
 
     return(
-        <section className="posts container" > 
+        <section className="" > 
             { 
             Produtos.map((post) => (
                 
                 <article > 
                     <table className="tabela" key={post.id}>
-                    <thead>
-                        <tr>
-                            <th className="tabela__coluna--p"> {post.nome} </th>
-                            <th clclassNameass="tabela__coluna--g"> {post.descricao}</th>
-                            <th clclassNameass="tabela__coluna--g"> N: {post.id}</th>
-                        </tr>
-                    </thead>
-                        <tbody data-tabela>
-                            <Delete />
-                        </tbody>
+                   
+                            <th className="tabela__coluna--p item">{post.nome}</th>
+                            <th className="tabela__coluna--g item">{post.descricao}</th>
+                            <th className="tabela__coluna--g id">{post.id}</th>
                     </table>
+                            {/* <Delete /> */}
                 </article>
                 
             ))

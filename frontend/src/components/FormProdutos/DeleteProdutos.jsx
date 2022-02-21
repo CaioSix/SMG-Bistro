@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import axios from 'axios';
 
 export default class PersonList extends React.Component {
@@ -6,13 +6,16 @@ export default class PersonList extends React.Component {
     id: '',
   }
 
+
+
+
   handleChange = event => {
     this.setState({ id: event.target.value });
   }
 
   handleSubmit = event => {
     event.preventDefault();
-
+    axios.get(`http://localhost:3001/produtos/`)
     axios.delete(`http://localhost:3001/produtos/${this.state.id}`)
       .then(res => {
         console.log(res);
@@ -34,3 +37,4 @@ export default class PersonList extends React.Component {
     )
   }
 }
+

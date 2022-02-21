@@ -1,29 +1,14 @@
 {
   "produtos": [
     {
-      "nome": "Hello World!",
-      "descricao": "This is an updated post.",
+      "nome": "tomate",
+      "descricao": "molho",
       "id": 1
     },
     {
       "nome": "Molho de Tomate",
       "descricao": "Molho a base de tomate",
       "id": 2
-    },
-    {
-      "nome": "dsadas",
-      "descricao": "dsadas",
-      "id": 3
-    },
-    {
-      "nome": "casda",
-      "descricao": "casda",
-      "id": 4
-    },
-    {
-      "nome": "casda",
-      "descricao": "casda",
-      "id": 5
     }
   ]
 }
